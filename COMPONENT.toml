@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-disk-usage"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Disk usage analysis (df/du-style filesystem monitoring, space reporting)"
+upstream = []
+
+[contract]
+provides = ["sigmadiskusage"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
